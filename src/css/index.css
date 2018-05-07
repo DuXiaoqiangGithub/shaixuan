@@ -1,0 +1,56 @@
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.wrapper {
+    width: 320px;
+    padding: 10px 15px;
+    margin: 100px auto 0px;
+    border: 2px solid #ccc ;
+    border-radius: 10px;
+}
+.wrapper .filterSection input {
+    outline: none;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.wrapper span {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.wrapper span.active {
+    color: #fff;
+    background-color: #777;
+    padding:1px 4px;
+    border-radius: 5px;
+}
+.wrapper .friendSection {
+    margin-top: 20px;
+}
+.wrapper ul li {
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.wrapper ul li img {
+    position: absolute;
+    width: 40px;
+    height:  40px;
+    left: 0px; 
+}
+.wrapper ul li .des {
+    margin-top: 5px;
+    font-size:13px;
+    color:#888;
+}
+.wrapper ul li .name {
+    color: #555;
+}
